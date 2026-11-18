@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+*.spec
+*.exe
+# raw logs and generated exports
+*.dbg
+*.log
+*_export_*.csv
+*_parsed.*
+# local machine data
+/data/
+/output/
+.DS_Store
+Thumbs.db
+desktop.ini

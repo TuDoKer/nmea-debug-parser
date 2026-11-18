@@ -1,0 +1,11 @@
+# NMEA Debug Parser - runtime dependencies
+# Install: pip install -r requirements.txt
+#
+# PyQt5 >= 5.15 is a hard requirement: the code uses
+# QTabWidget.setTabVisible(), available since Qt 5.15.
+# numpy >= 1.20 and matplotlib >= 3.5 cover all array/plotting APIs used.
+
+PyQt5>=5.15
+PyQt5-Qt5>=5.15
+numpy>=1.20
+matplotlib>=3.5
